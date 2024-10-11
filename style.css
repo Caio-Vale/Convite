@@ -1,0 +1,126 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+#planta1 {
+    width: 110%;
+    position: absolute;
+    z-index: -1;
+    left: -100px;
+    rotate: 40deg;
+}
+
+#planta2 {
+    width: 40%;
+    position: absolute;
+    z-index: -1;
+    top: 80%;
+    left: 40%;
+    rotate: -45deg;
+}
+
+.borda {
+    background-color: rgba(255, 255, 255, 0.747);
+    height: 100%;
+    margin: 2%;
+    padding: 2%;
+    border: 3px solid rgb(226, 148, 11) ;
+}
+
+.bordaInterna {
+    padding: 3%;
+    border: 1px solid rgb(226, 148, 11) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(71, 109, 85);
+    font-size: 260%;
+    justify-self: end;
+}
+
+span {
+    color: rgb(187, 142, 27);
+}
+
+h3 {
+    font-size: 150%;
+    color: rgb(187, 142, 27);
+}
+
+h4 {
+    margin: 10%;
+    font-size: 120%;
+    background-color: rgba(255, 255, 255, 0.651);
+    padding: 5% 0 ;
+    color: rgb(187, 142, 27);
+}
+
+h6 {
+    color: rgb(71, 109, 85);
+    font-size: 110%;
+    background-color: rgba(255, 255, 255, 0.63);
+    border: 5px solid rgba(255, 255, 255, 0.63); 
+    box-shadow: 1px 1px 15px rgb(107, 107, 107);
+    border-radius: 8px;
+}
+.data {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(71, 109, 85);
+    border-bottom: 1px solid rgb(71, 109, 85);
+    padding: 2% 17%;
+    font-size: 120%;
+    color: rgb(187, 142, 27);
+    background-color: rgba(255, 255, 255, 0.658);
+}
+
+.data > p {
+    padding: 10%;
+}
+
+#data {
+    border-left: 1px solid rgb(71, 109, 85);
+    border-right: 1px solid rgb(71, 109, 85);
+}
+
+.endereco {
+    margin: 3% 10%;
+    padding: 5%;
+    background-color: rgba(255, 255, 255, 0.466);
+    border: 1px solid rgba(255, 255, 255, 0.466);
+    border-radius: 3%;
+}
+
+iframe {
+    box-shadow: 3px 3px 8px;
+    margin-bottom: 10%;
+}
+
+audio {
+    position: absolute;
+    top: -50px
+}
+
+a {
+    text-decoration: none;
+    font-size: 80%;
+    color: rgb(129, 99, 22);
+    border: 3px solid white;
+    box-shadow: 3px 3px 8px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(187, 142, 27, black); 
+  }
+
+#convidam {
+   background-color: rgba(255, 255, 255, 0.63);
+   border: 5px solid rgba(255, 255, 255, 0.63); 
+   box-shadow: 1px 1px 15px rgb(107, 107, 107);
+   border-radius: 8px;
+}
